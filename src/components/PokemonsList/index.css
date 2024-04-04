@@ -1,0 +1,7 @@
+ol li {
+    cursor: pointer;
+}
+
+ol li:hover {
+    color: rgb(101, 101, 186);
+}

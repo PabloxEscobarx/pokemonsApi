@@ -1,0 +1,27 @@
+.pokemonInfoWrapper {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.pokemonInfoWrapper img {
+    width: 100%;
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.pokemonInfoList {
+    display: flex;
+    gap: 5px;
+}
+
+.pokemonInfoHeader {
+    background-color: rgb(142, 101, 101);
+    cursor: grab;
+    color: white;
+    text-align: center;
+}
